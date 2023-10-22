@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.select-tag{
+  background-color: rgb(61, 208, 159);
+  color: white;
+  height: 2rem;
+  width: 150px
+}
+
+.select-tag:hover{
+  background-color: white;
+  background-color: rgb(57, 248, 185);
+}
+.options-tags{
+  /* background-color: rgb(57, 248, 185); */
+}
+
+.options-tags div:hover{
+  background-color: black
+}
+
+option{
+  background-color: rgb(57, 248, 185);
+
+}
+
+select:focus > option:checked { 
+  background-color: white !important;
+  color: black;
+}
